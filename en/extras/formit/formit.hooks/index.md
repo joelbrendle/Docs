@@ -59,7 +59,7 @@ Just specify the renderHook in the 'renderHooks' property in your FormIt snippet
 
 ``` php
 // Get formit config & possible set values
-$formit =& $hook->formit;
+$formit = $hook->formit;
 $values = $hook->getValues();
 
 // Fetch sessions data
